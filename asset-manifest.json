@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/myfirstweb/static/css/main.494e39d2.css",
+    "main.js": "/myfirstweb/static/js/main.5b43dbbe.js",
+    "static/media/img1.jpg": "/myfirstweb/static/media/img1.be3928b817fc904794b2.jpg",
+    "static/media/billi.png": "/myfirstweb/static/media/billi.853716377a0e9cc6b81c.png",
+    "index.html": "/myfirstweb/index.html",
+    "main.494e39d2.css.map": "/myfirstweb/static/css/main.494e39d2.css.map",
+    "main.5b43dbbe.js.map": "/myfirstweb/static/js/main.5b43dbbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.494e39d2.css",
+    "static/js/main.5b43dbbe.js"
+  ]
+}
