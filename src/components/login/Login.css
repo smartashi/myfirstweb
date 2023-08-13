@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+.login-page {
+    left: 0%;
+    display: flex;
+}
+
+.login-page .left {
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.login-page .left img {
+    width: 50vw;
+    height: 100vh;
+}
+
+.login-page .right {
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(154.36deg, #CACDFF 0.64%, rgba(255, 255, 255, 0) 99.03%);
+}
+
+.right .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 100px;
+    padding: 25px 100px;
+}
+
+.content .header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 187.5%;
+    letter-spacing: -0.1em;
+    color: #5552B9;
+}
+
+.right .tagline {
+    display: flex;
+    align-items: center;
+    padding-left: 6vw;
+}
+
+.right .tagline img {
+    height: 4vh;
+
+}
+
+.right .tagline .topp {
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+.right .tagline h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #5756A6;
+}
+
+.right .google {
+    margin-top: 5vh;
+}
+
+.right .google button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 187.5%;
+    /* identical to box height, or 34px */
+
+    background-color: transparent;
+    padding: 1.3vh 6.5vw;
+    color: #5552B9;
+    border: 1px solid #5552B9;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.blank{
+    margin-top: 5vh;
+    border-bottom: 0.01px solid #7a77d3;
+    width: 25vw;
+}
+
+.right .ff {
+    margin-top: 2vh;
+}
+
+.right .ff button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187.5%;
+    padding: 1.3vh 8vw;
+    color: #FFFFFF;
+    background: #5552B9;
+    border: 1px solid #5552B9;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.inputs{
+    margin-top: 4vh;
+
+}
+.inputs .txt_field{
+    border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+
+.inputs .txt_field{
+    position: relative;
+    border-bottom: 1px solid #5552B9;
+    margin: 20px 0;
+    width: 25vw;
+}
+.txt_field input{
+    width: 25vw;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+::placeholder{
+font-family: 'Montserrat';
+font-style: italic;
+font-weight: 300;
+font-size: 15px;
+line-height: 187.5%;
+color: #5552B9;
+}
+/* .form label{
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 300;
+font-size: 15px;
+line-height: 187.5%;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #5552B9;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.form span::before{
+    content: '';
+    position: absolute;
+    top:40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2691d9;
+    transition: .5s;
+}
+
+.form input:focus ~ label,
+.form input:valid ~ :valid{
+    top: -1px;
+    color: #2691d9;
+} */
+
+.info .upper, .lower
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 187.5%;
+/* or 22px */
+
+text-align: center;
+margin-top: 5vh;
+color: #5552B9;
+}
+
+.info .upper span, .lower span{
+    text-decoration: underline;
+    cursor: pointer;
+}
